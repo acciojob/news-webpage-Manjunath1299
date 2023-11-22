@@ -10,17 +10,33 @@
 	justify-content:space-evenly;
 }
 img{
-	width:300px;
+	width:500px;
+    margin:10px;
 }
 .latest-news{
 	display:flex;
 	flex-direction:column;
+    align-items: center;
+    width:400px;
+}
+.latest-news{
+    border:2px solid white;
 }
 .latest-news>h2 a{
 	text-decoration:none;
 }
 .main-article{
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
+    padding: 20px;
+    width:1400px;
+}
+.main-article{
+    border: 2px solid white ;
+}
+.pictorial{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.cards{
+    margin:10px;
 }
