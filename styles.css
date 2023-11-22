@@ -13,5 +13,14 @@ img{
 	width:300px;
 }
 .latest-news{
-	border:2px solid white;
+	display:flex;
+	flex-direction:column;
+}
+.latest-news>h2 a{
+	text-decoration:none;
+}
+.main-article{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
 }
