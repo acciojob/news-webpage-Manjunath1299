@@ -3,7 +3,15 @@
 	background-color:#011e29;
 	color:white;
 	text-align:center;
+	padding:15px;
 }
 .cards{
 	display:flex;
+	justify-content:space-evenly;
+}
+img{
+	width:300px;
+}
+.latest-news{
+	border:2px solid white;
 }
