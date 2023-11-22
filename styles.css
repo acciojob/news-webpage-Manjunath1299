@@ -1,53 +1,42 @@
-body {
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+/*  your css code here. If applicable */
+.heading{
+	background-color:#011e29;
+	color:white;
+	text-align:center;
+	padding:15px;
 }
-
-.header {
-    background-color: #011e29;
-    text-align: center;
+.cards{
+	display:flex;
+	justify-content:space-evenly;
+}
+img{
+	width:500px;
+    margin:10px;
+}
+.latest-news{
+	display:flex;
+	flex-direction:column;
+    align-items: center;
+    width:400px;
+}
+.latest-news{
+    border:2px solid white;
+}
+.latest-news>h2 a{
+	text-decoration:none;
+}
+.main-article{
     padding: 20px;
-    color: white;
+    width:1400px;
 }
-
-.latest-news-section {
-    background-color: #011e29;
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    color: white;
+.main-article{
+    border: 2px solid white ;
 }
-
-.latest-news-section h2 {
-    margin-bottom: 10px;
+.pictorial{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
-
-.latest-news-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.latest-news-section li {
-    margin-bottom: 10px;
-}
-
-.pictorial-news-section {
-    background-color: #f5f5f5;
-    padding: 20px;
-    width: 80%;
-    margin: 20px auto;
-    text-align: center;
-    border-radius: 8px;
-}
-
-.pictorial-news-section h3 {
-    margin-bottom: 10px;
-}
-
-.pictorial-news-section img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
+.cards{
+    margin:10px;
 }
